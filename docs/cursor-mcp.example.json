@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kc-mcp": {
+      "command": "python",
+      "args": ["-m", "kc_mcp.mcp_server"],
+      "cwd": "/absolute/path/to/kc-mcp"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#0b1220"/>
+  <text x="450" y="36" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">kc-mcp architecture</text>
+  <defs><marker id="ah" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/></marker></defs>
+  <rect x="50" y="80" width="200" height="70" rx="10" fill="#1e3a5f" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="150.0" y="109.0" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Agent / Cursor</text>
+  <text x="150.0" y="129.0" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">stdio MCP or CLI</text>
+  <rect x="350" y="80" width="240" height="70" rx="10" fill="#164e63" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470.0" y="109.0" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">kc_mcp tools</text>
+  <text x="470.0" y="129.0" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">search · get · topics · quiz</text>
+  <rect x="350" y="220" width="240" height="70" rx="10" fill="#3b0764" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470.0" y="249.0" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">TF-IDF index</text>
+  <text x="470.0" y="269.0" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">in-memory</text>
+  <rect x="350" y="360" width="240" height="70" rx="10" fill="#14532d" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470.0" y="389.0" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">sample_corpus/</text>
+  <text x="470.0" y="409.0" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">*.md lesson notes</text>
+
+  <line x1="250" y1="115" x2="350" y2="115" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah)"/>
+
+  <line x1="470" y1="150" x2="470" y2="220" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah)"/>
+
+  <line x1="470" y1="290" x2="470" y2="360" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="450" y="500" text-anchor="middle" fill="#64748b" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Offline fixtures · no fake production claims</text>
+</svg>
