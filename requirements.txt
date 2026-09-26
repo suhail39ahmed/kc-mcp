@@ -1,0 +1,1 @@
+# stdlib-only MVP; optional later: mcp>=1.0

@@ -1,0 +1,18 @@
+[project]
+name = "kc-mcp"
+version = "0.1.0"
+description = "Knowledge Center MCP-style tools over teaching lesson notes"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+kc-mcp = "kc_mcp.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
